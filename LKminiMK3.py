@@ -1,7 +1,7 @@
 # https://www.partsnotincluded.com/how-to-control-the-leds-on-a-novation-launchkey-mini-ii/
 # https://github.com/giezu/LaunchkeyMiniMK3
 # https://mido.readthedocs.io/en/latest/index.html
-# https://www.kraftmusic.com/media/ownersmanual/Novation_Launchkey_Programmers_Reference_Manual.pdf
+# https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/Launchkey_MK3_Programmers_Reference.pdf
 
 import mido
 import random
