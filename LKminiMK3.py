@@ -22,10 +22,8 @@ if __name__ == "__main__":
         midi_out.send(mido.Message.from_bytes([0x9F, 0x0C, 0x7F]))        # switch to "DAW" mode
     
         while True:
-#           color = random.randint(0, 127)
            for color in range(127):
- 
-                for index, led in enumerate(row1):
+                 for index, led in enumerate(row1):
                     # Set current LED color
                     write_led(row1[index], color)
                     write_led(row2[index], color)
